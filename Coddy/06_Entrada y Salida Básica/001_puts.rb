@@ -12,5 +12,4 @@ con múltiples elementos separados por comas
 
 puts("Welcome to Ruby Books!")
 puts("Fiction", "Mystery", "Science")
-
 puts("Happy Reading!")
