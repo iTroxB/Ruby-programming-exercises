@@ -3,11 +3,9 @@
 - En la lección anterior, creaste un mensaje de bienvenida para el Calculador de División de Facturas.
 - Ahora, agrega la funcionalidad para recolectar la entrada del usuario para el cálculo de la factura.
 - Después de tu mensaje de bienvenida existente, lee tres entradas del usuario:
-
   - El monto total de la factura    
   - El porcentaje de propina (como un número entero, p. ej., 15 para 15%)
   - El número de personas que dividen la factura
-
 - Lee cada entrada usando gets.chomp y conviértelas a valores numéricos usando .to_f. Almacénalas en
 variables nombradas bill, tip_percent y people.
 - Después de leer las entradas, muestra un mensaje de confirmación que muestre lo que se ingresó en
@@ -39,4 +37,5 @@ people = gets.chomp.to_f
 
 puts("Bill: $%g" % bill)
 puts("Tip: %g%%" % tip_percent)
+
 puts("People: %g" % people)
